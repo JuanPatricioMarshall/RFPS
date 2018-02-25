@@ -56,7 +56,7 @@ while True:
     twitter.update_status(status=message)
     print("Tweeted: {}".format(message))
     #counter +=1
-    time.sleep(60*5)
+    time.sleep(60*15)
 
 
 
